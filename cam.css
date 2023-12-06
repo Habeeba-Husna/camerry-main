@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navar{
+    width: 100%;
+    position: fixed;
+    border-bottom:rgba(111, 111, 111, 0.3)solid 0.2px ;
+    
+}
+
+.nav-header{
+    width: 100%;
+    height: 81px;
+    position: fixed;
+    margin: 0px 0px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    font-size: 14px;
+    color: #6f6f6f;
+    font-weight: 400;
+    line-height: 13px;
+}
+.logo img{
+    width: 331px;
+    height: 45px;
+    float: left;
+
+}
+.main ul{
+    display: flex;
+    margin-right: 149px;
+}
+.main a{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 12.5px;
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffff;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+.main a:hover{
+    color: #7c682a;
+}
+.main li{
+    list-style: none;
+    
+}
+.social{
+    width: 200px;
+    height: 12px;
+    align-self: center;
+}
+.social ul{
+    display: flex;
+    margin-left: -54px;
+
+}
+.social li{
+    margin:-15px 0 0 0 ;
+    list-style: none;
+    padding: 15px;
+}
+.social i{
+    color: #ffff;    
+}
+.image{
+    width: 100%;
+    height:770px;
+    background-color: #9c4041;
+}
+.image1{
+    background-image: url("camerry-1.png");
+    width: 100%;
+    height:769px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.centre1{
+    height: 771px;
+    justify-content: center;
+    padding: 41px 0 80px 0;
+    display: flex;
+    background-color: #9c4041;
+}
+.centre1 img{
+    padding: 15px 0 33px 66px;
+}
+.text{
+    font-family:"Montserrat", sans-serif;
+    color:#fff;
+    height: 355px;
+    width: 585px;
+    align-self: center;
+    float: left;
+    padding: 8px 0 16px 0;
+    
+}
+.about{
+    width: 444px;
+    height:24px;
+    padding: 15px 0 33px 66px;
+    font-family:"Montserrat", sans-serif;
+    color: #fff;
+    font-size: 14px;
+ 
+
+    
+}
+.perfect{
+    width: 446px;
+    height: 162px;
+    font-size: 48px;
+    color: #fff;
+    font-weight: 600;
+    margin: 0 0 38px 0;
+    font-family:"Montserrat", sans-serif;
+}
+.p{
+    width:444px;
+    height: 72px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400px;
+    margin: 0 0 25px;
+    line-height: 24px;
+    font-family:"Montserrat", sans-serif;
+}  
+.explore{
+    width: 140px;
+    height: 47px;
+    font-size: 13px;
+    font-family:"Montserrat", sans-serif;
+    border: 2.5px solid #bc9e33;
+    background-color: #9c4041;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.explore a{
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 13px;
+    color: #bc9e33;
+    font-family:"Montserrat", sans-serif;
+    padding: 9px 34px;
+}
+.row1{
+    background-color: #1c1c1c;
+    justify-content: center;
+}
+.left{
+    width: 1190px;
+    height: auto;
+    display: flex;
+    background-color: #1c1c1c;
+    font-family:"Montserrat", sans-serif;
+    color: #7c682a;
+    justify-content: space-around;
+    padding: 50px 0;
+    margin:0 auto;
+    border-bottom:rgba(111, 111, 111, 0.3)solid 0.2px ;
+}
+.text{
+    margin: 0 0 0 50px;
+    align-self: center;
+}
+.footer-text h5{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
+}
+.footer-text p{
+    color: #d1bd74;
+    font-size: 16px;
+    line-height: 30px;
+}
+.contact{
+    width: 158px;
+    height: 47px;
+    font-size: 13px;
+    border: 2.5px solid #bc9e33;
+    background-color: #1c1c1c;
+    margin: 0 100px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -11px 110px 1px 437px;
+}
+.contact a{
+    text-decoration: none;
+    color: #7c682a;
+    font-weight: 600;
+}
+.row2{
+    width: 100%;
+    height: auto;
+    padding: 80px 0 50px 0;
+    background-color: #1c1c1c;
+    color: #7c682a;
+    font-family:"Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 30px;
+}
+.logo-last{
+    width: 200px;
+    height: 35px;
+    padding: 0 0 0 100px;
+    margin-left: 30px;
+
+}
+.logo-last img{
+    width: 100%;
+    height: auto;
+    margin-left: 25px;
+}
+.address{
+    width: 316px;
+    height: 210px;
+    color: #d1bd74;
+}
+.mob{
+    width: 200px;
+    height: 90px;
+    margin-top:31px;
+}
+.last-list{
+    padding: 0 86px 0 0;
+    margin: 0 185px 0 0;
+}
+.last-list li{
+    list-style: none;
+    width: 85px;
+    height: 30px;
+}
+.last-list a{
+    text-decoration: none;
+    color: #d1bd74;
+}
+
+
+
+
+
